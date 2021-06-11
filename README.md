@@ -1,3 +1,3 @@
-# new-hope, a christian church.
+New Hope, a Christian church.
 
 https://xiaolu-ignite.github.io/new-hope/
