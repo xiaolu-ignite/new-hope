@@ -108,12 +108,12 @@ li a {
 }
 
 .bot-nav {
-  display: flex;
+  display: none;
   overflow: hidden;
   background-color: rgb(88, 88, 88);
   position: fixed;
   flex-direction: row-reverse;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   bottom: 0;
   padding: 0 15px;
@@ -129,7 +129,11 @@ li a {
   align-items: center;
   height: 7vw;
   width: 7vw;
+  margin: 0 30px;
   z-index: 100;
+}
+.toggle-menu-btn i {
+  font-size: 60px;
 }
 
 @media screen and (max-width: 500px) {
@@ -154,10 +158,5 @@ li a {
   }
   ul {
     display: none;
-  }
-  .welcome {
-    width: auto;
-    height: 200px;
-    padding: 0;
   }
 }
